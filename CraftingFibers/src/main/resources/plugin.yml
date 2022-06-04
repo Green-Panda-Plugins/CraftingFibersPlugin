@@ -1,4 +1,4 @@
 name: CraftingFibersPlugin
 version: '${project.version}'
 main: green.misc.CFP
-api-version: 1.18
+api-version: 1.18.2
