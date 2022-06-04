@@ -5,7 +5,7 @@ import org.bukkit.Material;
 import org.bukkit.NamespacedKey;
 import org.bukkit.inventory.*;
 
-public class ItemManeger {
+public class ItemManager {
     public static void init() { createStringRecipe(); }
 
     public static void createStringRecipe(){
@@ -13,6 +13,5 @@ public class ItemManeger {
         ShapelessRecipe sr = new ShapelessRecipe(NamespacedKey.minecraft("string"), item);
         sr.addIngredient(1, Material.GRASS);
         Bukkit.getServer().addRecipe(sr);
-
     }
 }

@@ -1,6 +1,6 @@
 package green.misc;
 
-import green.misc.Items.ItemManeger;
+import green.misc.Items.ItemManager;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -10,7 +10,7 @@ public final class CFP extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[CraftingFibers]: plugin is enabled");
-        ItemManeger.init();
+        ItemManager.init();
     }
 
     @Override
